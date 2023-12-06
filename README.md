@@ -1,7 +1,7 @@
 # Open X-HD Project
 * Based on the original work of [Ryzee119](https://github.com/Ryzee119/XboxHDMI-Ryzee119)
 
-**Note: This project is an initial forkm, and is currently being modified to remove the use of Microsofts "Xbox" trademark in the project name, and basic cleanup.**
+**Note: This project is an initial fork, and is currently being modified to remove the use of Microsofts "Xbox" trademark in the project name, and basic cleanup.**
 
 * A few HDMI captures taken from this board are here: https://imgur.com/a/OkmB1Vs
 * This is a prototype 100% digital Original Xbox HDMI addon PCB. It taps into the GPU pixel bus before it enters the analog video encoder and converts it to a HDMI compliant signal.
