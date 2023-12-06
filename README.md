@@ -1,6 +1,7 @@
-# Original Xbox 100% Digital HDMI (Prototype)
+# Open X-HD Project
+* Based on the original work of [Ryzee119](https://github.com/Ryzee119/XboxHDMI-Ryzee119)
 
-**Note: This is a 'working' but unfinished prototype. I don't plan to improve this further. See https://makemhz.com/products/xboxhd for a properly finished product with way more features.**
+**Note: This project is an initial forkm, and is currently being modified to remove the use of Microsofts "Xbox" trademark in the project name, and basic cleanup.**
 
 * A few HDMI captures taken from this board are here: https://imgur.com/a/OkmB1Vs
 * This is a prototype 100% digital Original Xbox HDMI addon PCB. It taps into the GPU pixel bus before it enters the analog video encoder and converts it to a HDMI compliant signal.
@@ -9,7 +10,6 @@
 * This is a prototype board which should work on all Xbox revisions however a new flex would need to be designed to accomodate v1.6 motherboards with an Xcalibur encoder.
 * 480i does not work reliably. Use a force 480p BIOS.
 * The xbox kernels video modes are not compliant to proper HDMI signalling (v/hsync, porch delays etc). This does not have the ability to correct that. If your display is picky it may just not display anything.
-* Currently the MakeMHz solution is recommended. https://makemhz.com/products/xboxhd. It is a completely independent design which has been much more tested and with more features.
 
 ## Bill of materials
 * See [Kitspace](https://kitspace.org/boards/github.com/ryzee119/XboxHDMI-Ryzee119/).
